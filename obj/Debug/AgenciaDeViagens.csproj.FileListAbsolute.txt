@@ -1,0 +1,13 @@
+C:\Users\ana.clima44\source\repos\AgenciaDeViagens\AgenciaDeViagens\bin\Debug\AgenciaDeViagens.exe.config
+C:\Users\ana.clima44\source\repos\AgenciaDeViagens\AgenciaDeViagens\bin\Debug\AgenciaDeViagens.exe
+C:\Users\ana.clima44\source\repos\AgenciaDeViagens\AgenciaDeViagens\bin\Debug\AgenciaDeViagens.pdb
+C:\Users\ana.clima44\source\repos\AgenciaDeViagens\AgenciaDeViagens\obj\Debug\AgenciaDeViagens.csproj.AssemblyReference.cache
+C:\Users\ana.clima44\source\repos\AgenciaDeViagens\AgenciaDeViagens\obj\Debug\AgenciaDeViagens.TelaLogin.resources
+C:\Users\ana.clima44\source\repos\AgenciaDeViagens\AgenciaDeViagens\obj\Debug\AgenciaDeViagens.Properties.Resources.resources
+C:\Users\ana.clima44\source\repos\AgenciaDeViagens\AgenciaDeViagens\obj\Debug\AgenciaDeViagens.csproj.GenerateResource.cache
+C:\Users\ana.clima44\source\repos\AgenciaDeViagens\AgenciaDeViagens\obj\Debug\AgenciaDeViagens.csproj.CoreCompileInputs.cache
+C:\Users\ana.clima44\source\repos\AgenciaDeViagens\AgenciaDeViagens\obj\Debug\AgenciaDeViagens.exe
+C:\Users\ana.clima44\source\repos\AgenciaDeViagens\AgenciaDeViagens\obj\Debug\AgenciaDeViagens.pdb
+C:\Users\ana.clima44\source\repos\AgenciaDeViagens\AgenciaDeViagens\obj\Debug\AgenciaDeViagens.exe.config
+C:\Users\ana.clima44\source\repos\AgenciaDeViagens\AgenciaDeViagens\obj\Debug\AgenciaDeViagens.TelaCadastro.resources
+C:\Users\ana.clima44\source\repos\AgenciaDeViagens\AgenciaDeViagens\obj\Debug\AgenciaDeViagens.TelaInicio.resources
