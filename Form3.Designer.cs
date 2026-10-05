@@ -28,14 +28,15 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TelaLogin));
             this.lbl_endereco = new System.Windows.Forms.Label();
             this.lbl_email = new System.Windows.Forms.Label();
             this.btn_voltar = new System.Windows.Forms.Button();
             this.lbl_dados = new System.Windows.Forms.Label();
             this.btn_confirmar = new System.Windows.Forms.Button();
-            this.img_logoLogin = new System.Windows.Forms.PictureBox();
-            this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
+            this.txt_senha = new System.Windows.Forms.MaskedTextBox();
             this.mktxt_cpf = new System.Windows.Forms.MaskedTextBox();
+            this.img_logoLogin = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.img_logoLogin)).BeginInit();
             this.SuspendLayout();
             // 
@@ -100,27 +101,18 @@
             this.btn_confirmar.TabIndex = 4;
             this.btn_confirmar.Text = "Confirmar";
             this.btn_confirmar.UseVisualStyleBackColor = false;
+            this.btn_confirmar.Click += new System.EventHandler(this.btn_confirmar_Click);
             // 
-            // img_logoLogin
+            // txt_senha
             // 
-            this.img_logoLogin.Image = global::AgenciaDeViagens.Properties.Resources.logoAgencia;
-            this.img_logoLogin.Location = new System.Drawing.Point(12, 2);
-            this.img_logoLogin.Name = "img_logoLogin";
-            this.img_logoLogin.Size = new System.Drawing.Size(195, 123);
-            this.img_logoLogin.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.img_logoLogin.TabIndex = 14;
-            this.img_logoLogin.TabStop = false;
-            // 
-            // maskedTextBox1
-            // 
-            this.maskedTextBox1.AccessibleDescription = "Digite sua senha";
-            this.maskedTextBox1.AccessibleName = "Campo da senha";
-            this.maskedTextBox1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.maskedTextBox1.Location = new System.Drawing.Point(272, 207);
-            this.maskedTextBox1.Name = "maskedTextBox1";
-            this.maskedTextBox1.PasswordChar = '*';
-            this.maskedTextBox1.Size = new System.Drawing.Size(377, 29);
-            this.maskedTextBox1.TabIndex = 15;
+            this.txt_senha.AccessibleDescription = "Digite sua senha";
+            this.txt_senha.AccessibleName = "Campo da senha";
+            this.txt_senha.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_senha.Location = new System.Drawing.Point(272, 207);
+            this.txt_senha.Name = "txt_senha";
+            this.txt_senha.PasswordChar = '*';
+            this.txt_senha.Size = new System.Drawing.Size(377, 29);
+            this.txt_senha.TabIndex = 2;
             // 
             // mktxt_cpf
             // 
@@ -131,7 +123,17 @@
             this.mktxt_cpf.Mask = "999.999.999-99";
             this.mktxt_cpf.Name = "mktxt_cpf";
             this.mktxt_cpf.Size = new System.Drawing.Size(377, 29);
-            this.mktxt_cpf.TabIndex = 16;
+            this.mktxt_cpf.TabIndex = 1;
+            // 
+            // img_logoLogin
+            // 
+            this.img_logoLogin.Image = global::AgenciaDeViagens.Properties.Resources.logoAgencia;
+            this.img_logoLogin.Location = new System.Drawing.Point(-36, -6);
+            this.img_logoLogin.Name = "img_logoLogin";
+            this.img_logoLogin.Size = new System.Drawing.Size(195, 123);
+            this.img_logoLogin.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.img_logoLogin.TabIndex = 14;
+            this.img_logoLogin.TabStop = false;
             // 
             // TelaLogin
             // 
@@ -140,13 +142,14 @@
             this.BackColor = System.Drawing.Color.GhostWhite;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.mktxt_cpf);
-            this.Controls.Add(this.maskedTextBox1);
+            this.Controls.Add(this.txt_senha);
             this.Controls.Add(this.img_logoLogin);
             this.Controls.Add(this.btn_confirmar);
             this.Controls.Add(this.lbl_dados);
             this.Controls.Add(this.lbl_endereco);
             this.Controls.Add(this.lbl_email);
             this.Controls.Add(this.btn_voltar);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "TelaLogin";
             this.Text = "Login";
             ((System.ComponentModel.ISupportInitialize)(this.img_logoLogin)).EndInit();
@@ -163,7 +166,7 @@
         private System.Windows.Forms.Label lbl_dados;
         private System.Windows.Forms.Button btn_confirmar;
         private System.Windows.Forms.PictureBox img_logoLogin;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox1;
+        private System.Windows.Forms.MaskedTextBox txt_senha;
         private System.Windows.Forms.MaskedTextBox mktxt_cpf;
     }
 }

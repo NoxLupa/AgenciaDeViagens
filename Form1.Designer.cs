@@ -28,21 +28,12 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.img_logoLogin = new System.Windows.Forms.PictureBox();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TelaInicio));
             this.btn_cadastrar = new System.Windows.Forms.Button();
             this.btn_login = new System.Windows.Forms.Button();
+            this.img_logoLogin = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.img_logoLogin)).BeginInit();
             this.SuspendLayout();
-            // 
-            // img_logoLogin
-            // 
-            this.img_logoLogin.Image = global::AgenciaDeViagens.Properties.Resources.logoAgencia;
-            this.img_logoLogin.Location = new System.Drawing.Point(243, 3);
-            this.img_logoLogin.Name = "img_logoLogin";
-            this.img_logoLogin.Size = new System.Drawing.Size(291, 276);
-            this.img_logoLogin.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.img_logoLogin.TabIndex = 0;
-            this.img_logoLogin.TabStop = false;
             // 
             // btn_cadastrar
             // 
@@ -74,6 +65,16 @@
             this.btn_login.UseVisualStyleBackColor = false;
             this.btn_login.Click += new System.EventHandler(this.btn_login_Click);
             // 
+            // img_logoLogin
+            // 
+            this.img_logoLogin.Image = global::AgenciaDeViagens.Properties.Resources.logoAgencia;
+            this.img_logoLogin.Location = new System.Drawing.Point(243, 3);
+            this.img_logoLogin.Name = "img_logoLogin";
+            this.img_logoLogin.Size = new System.Drawing.Size(291, 276);
+            this.img_logoLogin.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.img_logoLogin.TabIndex = 0;
+            this.img_logoLogin.TabStop = false;
+            // 
             // TelaInicio
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -83,6 +84,7 @@
             this.Controls.Add(this.btn_login);
             this.Controls.Add(this.btn_cadastrar);
             this.Controls.Add(this.img_logoLogin);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "TelaInicio";
             this.Text = "Início";
             ((System.ComponentModel.ISupportInitialize)(this.img_logoLogin)).EndInit();
