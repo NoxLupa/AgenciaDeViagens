@@ -117,6 +117,18 @@
     <Compile Include="Form4.Designer.cs">
       <DependentUpon>Form4.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form5.Designer.cs">
+      <DependentUpon>Form5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form6.Designer.cs">
+      <DependentUpon>Form6.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -130,6 +142,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form4.resx">
       <DependentUpon>Form4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form5.resx">
+      <DependentUpon>Form5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form6.resx">
+      <DependentUpon>Form6.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -178,6 +196,27 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\imagem_3_150x276.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coliseu_298x221.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coliseu_298x2211.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fonte_dos_desejos_298x221.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imagem_298x221.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\alt_image.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\alt_image %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\alt_image %281%291.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

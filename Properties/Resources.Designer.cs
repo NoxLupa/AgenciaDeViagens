@@ -63,6 +63,66 @@ namespace AgenciaDeViagens.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap alt_image {
+            get {
+                object obj = ResourceManager.GetObject("alt_image", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap alt_image__1_ {
+            get {
+                object obj = ResourceManager.GetObject("alt_image (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap alt_image__1_1 {
+            get {
+                object obj = ResourceManager.GetObject("alt_image (1)1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap coliseu_298x221 {
+            get {
+                object obj = ResourceManager.GetObject("coliseu_298x221", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap coliseu_298x2211 {
+            get {
+                object obj = ResourceManager.GetObject("coliseu_298x2211", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap fonte_dos_desejos_298x221 {
+            get {
+                object obj = ResourceManager.GetObject("fonte_dos_desejos_298x221", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap imagem {
             get {
                 object obj = ResourceManager.GetObject("imagem", resourceCulture);
@@ -96,6 +156,16 @@ namespace AgenciaDeViagens.Properties {
         internal static System.Drawing.Bitmap imagem_2_150x276 {
             get {
                 object obj = ResourceManager.GetObject("imagem_2_150x276", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap imagem_298x221 {
+            get {
+                object obj = ResourceManager.GetObject("imagem_298x221", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
