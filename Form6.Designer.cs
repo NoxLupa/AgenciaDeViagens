@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form6));
             this.panel1 = new System.Windows.Forms.Panel();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.panelCabecalho = new System.Windows.Forms.Panel();
@@ -38,6 +39,8 @@
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
@@ -141,14 +144,36 @@
             this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
             this.textBox2.Location = new System.Drawing.Point(12, 273);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(105, 30);
+            this.textBox2.Size = new System.Drawing.Size(146, 30);
             this.textBox2.TabIndex = 14;
             this.textBox2.Text = "Salvador Bahia";
             // 
+            // textBox5
+            // 
+            this.textBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.textBox5.Location = new System.Drawing.Point(27, 625);
+            this.textBox5.Multiline = true;
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(967, 137);
+            this.textBox5.TabIndex = 20;
+            this.textBox5.Text = resources.GetString("textBox5.Text");
+            this.textBox5.TextChanged += new System.EventHandler(this.textBox5_TextChanged);
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.LimeGreen;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
+            this.button1.Location = new System.Drawing.Point(34, 805);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(276, 60);
+            this.button1.TabIndex = 21;
+            this.button1.Text = "comprar";
+            this.button1.UseVisualStyleBackColor = false;
+            // 
             // pictureBox4
             // 
-            this.pictureBox4.Image = global::AgenciaDeViagens.Properties.Resources.coliseu_298x2211;
-            this.pictureBox4.Location = new System.Drawing.Point(727, 428);
+            this.pictureBox4.Image = global::AgenciaDeViagens.Properties.Resources.imagem_redimensionada_298x221__1_;
+            this.pictureBox4.Location = new System.Drawing.Point(717, 379);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(298, 221);
             this.pictureBox4.TabIndex = 19;
@@ -156,8 +181,8 @@
             // 
             // pictureBox3
             // 
-            this.pictureBox3.Image = global::AgenciaDeViagens.Properties.Resources.coliseu_298x2211;
-            this.pictureBox3.Location = new System.Drawing.Point(381, 428);
+            this.pictureBox3.Image = global::AgenciaDeViagens.Properties.Resources.imagem_redimensionada_298x221;
+            this.pictureBox3.Location = new System.Drawing.Point(366, 379);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(298, 221);
             this.pictureBox3.TabIndex = 18;
@@ -166,7 +191,7 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = global::AgenciaDeViagens.Properties.Resources.alt_image__1_1;
-            this.pictureBox2.Location = new System.Drawing.Point(28, 428);
+            this.pictureBox2.Location = new System.Drawing.Point(12, 379);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(298, 221);
             this.pictureBox2.TabIndex = 17;
@@ -186,7 +211,9 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1027, 751);
+            this.ClientSize = new System.Drawing.Size(1027, 912);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.textBox5);
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox2);
@@ -199,6 +226,7 @@
             this.Controls.Add(this.pictureBox1);
             this.Name = "Form6";
             this.Text = "Form6";
+            this.Load += new System.EventHandler(this.Form6_Load);
             this.panelCabecalho.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
@@ -222,8 +250,10 @@
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.Button button1;
     }
 }
