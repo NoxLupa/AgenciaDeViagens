@@ -101,3 +101,8 @@ C:\Users\lucas.gcosta15\source\repos\AgenciaDeViagens\obj\Debug\AgenciaDeViagens
 C:\Users\lucas.gcosta15\source\repos\AgenciaDeViagens\obj\Debug\AgenciaD.EC65B6E7.Up2Date
 C:\Users\lucas.gcosta15\source\repos\AgenciaDeViagens\obj\Debug\AgenciaDeViagens.exe
 C:\Users\lucas.gcosta15\source\repos\AgenciaDeViagens\obj\Debug\AgenciaDeViagens.pdb
+C:\Users\lucas.gcosta15\source\repos\AgenciaDeViagens\obj\Debug\AgenciaDeViagens.Form10.resources
+C:\Users\lucas.gcosta15\source\repos\AgenciaDeViagens\obj\Debug\AgenciaDeViagens.Form11.resources
+C:\Users\lucas.gcosta15\source\repos\AgenciaDeViagens\obj\Debug\AgenciaDeViagens.Form7.resources
+C:\Users\lucas.gcosta15\source\repos\AgenciaDeViagens\obj\Debug\AgenciaDeViagens.Form8.resources
+C:\Users\lucas.gcosta15\source\repos\AgenciaDeViagens\obj\Debug\AgenciaDeViagens.Form9.resources

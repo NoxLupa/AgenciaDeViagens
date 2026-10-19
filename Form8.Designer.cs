@@ -30,21 +30,18 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form8));
             this.panelCabecalho = new System.Windows.Forms.Panel();
-            this.btnPromocao = new System.Windows.Forms.Button();
-            this.btnInternacionais = new System.Windows.Forms.Button();
-            this.btnNacionais = new System.Windows.Forms.Button();
             this.btnTodos = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.textBox4 = new System.Windows.Forms.TextBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panelCabecalho.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -56,46 +53,15 @@
             // 
             this.panelCabecalho.AutoScrollMargin = new System.Drawing.Size(0, 110);
             this.panelCabecalho.BackColor = System.Drawing.SystemColors.Highlight;
-            this.panelCabecalho.Controls.Add(this.btnPromocao);
-            this.panelCabecalho.Controls.Add(this.btnInternacionais);
-            this.panelCabecalho.Controls.Add(this.btnNacionais);
             this.panelCabecalho.Controls.Add(this.btnTodos);
             this.panelCabecalho.Location = new System.Drawing.Point(0, 98);
             this.panelCabecalho.Name = "panelCabecalho";
             this.panelCabecalho.Size = new System.Drawing.Size(1025, 59);
             this.panelCabecalho.TabIndex = 12;
             // 
-            // btnPromocao
-            // 
-            this.btnPromocao.BackColor = System.Drawing.Color.Transparent;
-            this.btnPromocao.Location = new System.Drawing.Point(818, 18);
-            this.btnPromocao.Name = "btnPromocao";
-            this.btnPromocao.Size = new System.Drawing.Size(75, 23);
-            this.btnPromocao.TabIndex = 9;
-            this.btnPromocao.Text = "Promoção";
-            this.btnPromocao.UseVisualStyleBackColor = false;
-            // 
-            // btnInternacionais
-            // 
-            this.btnInternacionais.Location = new System.Drawing.Point(617, 18);
-            this.btnInternacionais.Name = "btnInternacionais";
-            this.btnInternacionais.Size = new System.Drawing.Size(135, 23);
-            this.btnInternacionais.TabIndex = 8;
-            this.btnInternacionais.Text = "Pacotes internacionais";
-            this.btnInternacionais.UseVisualStyleBackColor = true;
-            // 
-            // btnNacionais
-            // 
-            this.btnNacionais.Location = new System.Drawing.Point(406, 18);
-            this.btnNacionais.Name = "btnNacionais";
-            this.btnNacionais.Size = new System.Drawing.Size(117, 23);
-            this.btnNacionais.TabIndex = 7;
-            this.btnNacionais.Text = "Pacotes nacionais";
-            this.btnNacionais.UseVisualStyleBackColor = true;
-            // 
             // btnTodos
             // 
-            this.btnTodos.Location = new System.Drawing.Point(189, 18);
+            this.btnTodos.Location = new System.Drawing.Point(445, 11);
             this.btnTodos.Name = "btnTodos";
             this.btnTodos.Size = new System.Drawing.Size(119, 23);
             this.btnTodos.TabIndex = 6;
@@ -120,43 +86,6 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1024, 10);
             this.panel1.TabIndex = 14;
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Image = global::AgenciaDeViagens.Properties.Resources.hotel_298x221;
-            this.pictureBox4.Location = new System.Drawing.Point(717, 389);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(298, 221);
-            this.pictureBox4.TabIndex = 20;
-            this.pictureBox4.TabStop = false;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Image = global::AgenciaDeViagens.Properties.Resources.piramide_maia_298x221__1_;
-            this.pictureBox3.Location = new System.Drawing.Point(379, 389);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(298, 221);
-            this.pictureBox3.TabIndex = 19;
-            this.pictureBox3.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::AgenciaDeViagens.Properties.Resources.resort_298x221;
-            this.pictureBox2.Location = new System.Drawing.Point(10, 389);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(298, 221);
-            this.pictureBox2.TabIndex = 18;
-            this.pictureBox2.TabStop = false;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::AgenciaDeViagens.Properties.Resources.logo_da_agencia_removebg_preview;
-            this.pictureBox1.Location = new System.Drawing.Point(-24, -22);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(176, 154);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 11;
-            this.pictureBox1.TabStop = false;
             // 
             // textBox5
             // 
@@ -206,6 +135,43 @@
             this.textBox4.TabIndex = 25;
             this.textBox4.Text = "Hotel Taurati Apartaments";
             // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Image = global::AgenciaDeViagens.Properties.Resources.hotel_298x221;
+            this.pictureBox4.Location = new System.Drawing.Point(717, 389);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(298, 221);
+            this.pictureBox4.TabIndex = 20;
+            this.pictureBox4.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = global::AgenciaDeViagens.Properties.Resources.piramide_maia_298x221__1_;
+            this.pictureBox3.Location = new System.Drawing.Point(379, 389);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(298, 221);
+            this.pictureBox3.TabIndex = 19;
+            this.pictureBox3.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::AgenciaDeViagens.Properties.Resources.resort_298x221;
+            this.pictureBox2.Location = new System.Drawing.Point(10, 389);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(298, 221);
+            this.pictureBox2.TabIndex = 18;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::AgenciaDeViagens.Properties.Resources.logo_da_agencia_removebg_preview;
+            this.pictureBox1.Location = new System.Drawing.Point(-24, -22);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(176, 154);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 11;
+            this.pictureBox1.TabStop = false;
+            // 
             // Form8
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -239,9 +205,6 @@
 
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Panel panelCabecalho;
-        private System.Windows.Forms.Button btnPromocao;
-        private System.Windows.Forms.Button btnInternacionais;
-        private System.Windows.Forms.Button btnNacionais;
         private System.Windows.Forms.Button btnTodos;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Panel panel1;

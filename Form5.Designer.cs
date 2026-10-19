@@ -30,9 +30,6 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form5));
             this.panelCabecalho = new System.Windows.Forms.Panel();
-            this.btnPromocao = new System.Windows.Forms.Button();
-            this.btnInternacionais = new System.Windows.Forms.Button();
-            this.btnNacionais = new System.Windows.Forms.Button();
             this.btnTodos = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.panel1 = new System.Windows.Forms.Panel();
@@ -56,46 +53,15 @@
             // 
             this.panelCabecalho.AutoScrollMargin = new System.Drawing.Size(0, 110);
             this.panelCabecalho.BackColor = System.Drawing.SystemColors.MenuHighlight;
-            this.panelCabecalho.Controls.Add(this.btnPromocao);
-            this.panelCabecalho.Controls.Add(this.btnInternacionais);
-            this.panelCabecalho.Controls.Add(this.btnNacionais);
             this.panelCabecalho.Controls.Add(this.btnTodos);
             this.panelCabecalho.Location = new System.Drawing.Point(0, 98);
             this.panelCabecalho.Name = "panelCabecalho";
             this.panelCabecalho.Size = new System.Drawing.Size(1025, 59);
             this.panelCabecalho.TabIndex = 7;
             // 
-            // btnPromocao
-            // 
-            this.btnPromocao.BackColor = System.Drawing.Color.Transparent;
-            this.btnPromocao.Location = new System.Drawing.Point(818, 18);
-            this.btnPromocao.Name = "btnPromocao";
-            this.btnPromocao.Size = new System.Drawing.Size(75, 23);
-            this.btnPromocao.TabIndex = 9;
-            this.btnPromocao.Text = "Promoção";
-            this.btnPromocao.UseVisualStyleBackColor = false;
-            // 
-            // btnInternacionais
-            // 
-            this.btnInternacionais.Location = new System.Drawing.Point(617, 18);
-            this.btnInternacionais.Name = "btnInternacionais";
-            this.btnInternacionais.Size = new System.Drawing.Size(135, 23);
-            this.btnInternacionais.TabIndex = 8;
-            this.btnInternacionais.Text = "Pacotes internacionais";
-            this.btnInternacionais.UseVisualStyleBackColor = true;
-            // 
-            // btnNacionais
-            // 
-            this.btnNacionais.Location = new System.Drawing.Point(406, 18);
-            this.btnNacionais.Name = "btnNacionais";
-            this.btnNacionais.Size = new System.Drawing.Size(117, 23);
-            this.btnNacionais.TabIndex = 7;
-            this.btnNacionais.Text = "Pacotes nacionais";
-            this.btnNacionais.UseVisualStyleBackColor = true;
-            // 
             // btnTodos
             // 
-            this.btnTodos.Location = new System.Drawing.Point(189, 18);
+            this.btnTodos.Location = new System.Drawing.Point(464, 16);
             this.btnTodos.Name = "btnTodos";
             this.btnTodos.Size = new System.Drawing.Size(119, 23);
             this.btnTodos.TabIndex = 6;
@@ -239,9 +205,6 @@
         #endregion
 
         private System.Windows.Forms.Panel panelCabecalho;
-        private System.Windows.Forms.Button btnPromocao;
-        private System.Windows.Forms.Button btnInternacionais;
-        private System.Windows.Forms.Button btnNacionais;
         private System.Windows.Forms.Button btnTodos;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.TextBox textBox1;
