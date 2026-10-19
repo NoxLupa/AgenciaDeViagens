@@ -223,9 +223,11 @@
             // 
             // btn_mostrarSenha
             // 
-            this.btn_mostrarSenha.BackColor = System.Drawing.Color.Lime;
+            this.btn_mostrarSenha.BackColor = System.Drawing.Color.Transparent;
+            this.btn_mostrarSenha.BackgroundImage = global::AgenciaDeViagens.Properties.Resources.show_password2;
+            this.btn_mostrarSenha.FlatAppearance.BorderSize = 0;
             this.btn_mostrarSenha.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_mostrarSenha.ForeColor = System.Drawing.SystemColors.ControlDark;
+            this.btn_mostrarSenha.ForeColor = System.Drawing.Color.Transparent;
             this.btn_mostrarSenha.Location = new System.Drawing.Point(581, 287);
             this.btn_mostrarSenha.Name = "btn_mostrarSenha";
             this.btn_mostrarSenha.Size = new System.Drawing.Size(31, 29);

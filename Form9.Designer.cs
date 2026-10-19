@@ -28,10 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.txt_senhaConfirma = new System.Windows.Forms.TextBox();
             this.txt_senha = new System.Windows.Forms.TextBox();
-            this.btn_mostrarSenha = new System.Windows.Forms.Button();
             this.lbl_senhaConfirma = new System.Windows.Forms.Label();
             this.lbl_senha = new System.Windows.Forms.Label();
             this.btn_alterar = new System.Windows.Forms.Button();
@@ -47,19 +45,11 @@
             this.txt_nome = new System.Windows.Forms.TextBox();
             this.btn_voltar = new System.Windows.Forms.Button();
             this.lbl_dados = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btn_excluir = new System.Windows.Forms.Button();
+            this.btn_mostrarSenha = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::AgenciaDeViagens.Properties.Resources.logo_da_agencia_removebg_preview;
-            this.pictureBox1.Location = new System.Drawing.Point(-16, -25);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(150, 150);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 30;
-            this.pictureBox1.TabStop = false;
             // 
             // txt_senhaConfirma
             // 
@@ -69,7 +59,7 @@
             this.txt_senhaConfirma.Location = new System.Drawing.Point(205, 338);
             this.txt_senhaConfirma.Name = "txt_senhaConfirma";
             this.txt_senhaConfirma.Size = new System.Drawing.Size(377, 29);
-            this.txt_senhaConfirma.TabIndex = 25;
+            this.txt_senhaConfirma.TabIndex = 7;
             this.txt_senhaConfirma.UseSystemPasswordChar = true;
             // 
             // txt_senha
@@ -80,20 +70,8 @@
             this.txt_senha.Location = new System.Drawing.Point(205, 303);
             this.txt_senha.Name = "txt_senha";
             this.txt_senha.Size = new System.Drawing.Size(377, 29);
-            this.txt_senha.TabIndex = 24;
+            this.txt_senha.TabIndex = 6;
             this.txt_senha.UseSystemPasswordChar = true;
-            // 
-            // btn_mostrarSenha
-            // 
-            this.btn_mostrarSenha.BackColor = System.Drawing.Color.Lime;
-            this.btn_mostrarSenha.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_mostrarSenha.ForeColor = System.Drawing.SystemColors.ControlDark;
-            this.btn_mostrarSenha.Location = new System.Drawing.Point(588, 304);
-            this.btn_mostrarSenha.Name = "btn_mostrarSenha";
-            this.btn_mostrarSenha.Size = new System.Drawing.Size(31, 29);
-            this.btn_mostrarSenha.TabIndex = 18;
-            this.btn_mostrarSenha.UseVisualStyleBackColor = false;
-            this.btn_mostrarSenha.Click += new System.EventHandler(this.btn_mostrarSenha_Click);
             // 
             // lbl_senhaConfirma
             // 
@@ -127,7 +105,7 @@
             this.btn_alterar.Location = new System.Drawing.Point(219, 398);
             this.btn_alterar.Name = "btn_alterar";
             this.btn_alterar.Size = new System.Drawing.Size(139, 40);
-            this.btn_alterar.TabIndex = 27;
+            this.btn_alterar.TabIndex = 8;
             this.btn_alterar.Text = "Alterar";
             this.btn_alterar.UseVisualStyleBackColor = false;
             this.btn_alterar.Click += new System.EventHandler(this.btn_alterar_Click);
@@ -195,7 +173,7 @@
             this.txt_endereco.Location = new System.Drawing.Point(205, 263);
             this.txt_endereco.Name = "txt_endereco";
             this.txt_endereco.Size = new System.Drawing.Size(377, 29);
-            this.txt_endereco.TabIndex = 23;
+            this.txt_endereco.TabIndex = 5;
             // 
             // txt_email
             // 
@@ -205,7 +183,7 @@
             this.txt_email.Location = new System.Drawing.Point(205, 228);
             this.txt_email.Name = "txt_email";
             this.txt_email.Size = new System.Drawing.Size(377, 29);
-            this.txt_email.TabIndex = 22;
+            this.txt_email.TabIndex = 4;
             // 
             // mktxt_telefone
             // 
@@ -216,7 +194,7 @@
             this.mktxt_telefone.Mask = "+99(99)99999-9999";
             this.mktxt_telefone.Name = "mktxt_telefone";
             this.mktxt_telefone.Size = new System.Drawing.Size(377, 29);
-            this.mktxt_telefone.TabIndex = 21;
+            this.mktxt_telefone.TabIndex = 3;
             // 
             // mktxt_cpf
             // 
@@ -227,7 +205,7 @@
             this.mktxt_cpf.Mask = "999.999.999-99";
             this.mktxt_cpf.Name = "mktxt_cpf";
             this.mktxt_cpf.Size = new System.Drawing.Size(377, 29);
-            this.mktxt_cpf.TabIndex = 19;
+            this.mktxt_cpf.TabIndex = 1;
             // 
             // txt_nome
             // 
@@ -237,7 +215,7 @@
             this.txt_nome.Location = new System.Drawing.Point(205, 158);
             this.txt_nome.Name = "txt_nome";
             this.txt_nome.Size = new System.Drawing.Size(377, 29);
-            this.txt_nome.TabIndex = 20;
+            this.txt_nome.TabIndex = 2;
             // 
             // btn_voltar
             // 
@@ -249,7 +227,7 @@
             this.btn_voltar.Location = new System.Drawing.Point(649, 398);
             this.btn_voltar.Name = "btn_voltar";
             this.btn_voltar.Size = new System.Drawing.Size(139, 40);
-            this.btn_voltar.TabIndex = 26;
+            this.btn_voltar.TabIndex = 10;
             this.btn_voltar.Text = "Voltar";
             this.btn_voltar.UseVisualStyleBackColor = false;
             this.btn_voltar.Click += new System.EventHandler(this.btn_voltar_Click);
@@ -265,30 +243,55 @@
             this.lbl_dados.TabIndex = 17;
             this.lbl_dados.Text = "Seus Dados";
             // 
-            // button1
+            // btn_excluir
             // 
-            this.button1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.SystemColors.Control;
-            this.button1.Location = new System.Drawing.Point(426, 398);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(139, 40);
-            this.button1.TabIndex = 31;
-            this.button1.Text = "Excluir";
-            this.button1.UseVisualStyleBackColor = false;
+            this.btn_excluir.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btn_excluir.FlatAppearance.BorderSize = 0;
+            this.btn_excluir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_excluir.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_excluir.ForeColor = System.Drawing.SystemColors.Control;
+            this.btn_excluir.Location = new System.Drawing.Point(426, 398);
+            this.btn_excluir.Name = "btn_excluir";
+            this.btn_excluir.Size = new System.Drawing.Size(139, 40);
+            this.btn_excluir.TabIndex = 9;
+            this.btn_excluir.Text = "Excluir";
+            this.btn_excluir.UseVisualStyleBackColor = false;
+            this.btn_excluir.Click += new System.EventHandler(this.btn_excluir_Click);
+            // 
+            // btn_mostrarSenha
+            // 
+            this.btn_mostrarSenha.BackColor = System.Drawing.Color.Transparent;
+            this.btn_mostrarSenha.BackgroundImage = global::AgenciaDeViagens.Properties.Resources.show_password2;
+            this.btn_mostrarSenha.FlatAppearance.BorderSize = 0;
+            this.btn_mostrarSenha.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_mostrarSenha.ForeColor = System.Drawing.Color.Transparent;
+            this.btn_mostrarSenha.Location = new System.Drawing.Point(588, 305);
+            this.btn_mostrarSenha.Name = "btn_mostrarSenha";
+            this.btn_mostrarSenha.Size = new System.Drawing.Size(31, 29);
+            this.btn_mostrarSenha.TabIndex = 11;
+            this.btn_mostrarSenha.UseVisualStyleBackColor = false;
+            this.btn_mostrarSenha.Click += new System.EventHandler(this.btn_mostrarSenha_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::AgenciaDeViagens.Properties.Resources.logo_da_agencia_removebg_preview;
+            this.pictureBox1.Location = new System.Drawing.Point(-16, -25);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(150, 150);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 30;
+            this.pictureBox1.TabStop = false;
             // 
             // TelaPerfil
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btn_mostrarSenha);
+            this.Controls.Add(this.btn_excluir);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.txt_senhaConfirma);
             this.Controls.Add(this.txt_senha);
-            this.Controls.Add(this.btn_mostrarSenha);
             this.Controls.Add(this.lbl_senhaConfirma);
             this.Controls.Add(this.lbl_senha);
             this.Controls.Add(this.btn_alterar);
@@ -333,6 +336,6 @@
         private System.Windows.Forms.TextBox txt_nome;
         private System.Windows.Forms.Button btn_voltar;
         private System.Windows.Forms.Label lbl_dados;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btn_excluir;
     }
 }

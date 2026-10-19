@@ -36,13 +36,13 @@ namespace AgenciaDeViagens
             {
                 txt_senha.UseSystemPasswordChar = false;
                 txt_senhaConfirma.UseSystemPasswordChar = false;
-                btn_mostrarSenha.BackColor = Color.Red;
+                btn_mostrarSenha.BackgroundImage = Properties.Resources.hide_password;
             }
             else
             {
                 txt_senha.UseSystemPasswordChar = true;
                 txt_senhaConfirma.UseSystemPasswordChar = true;
-                btn_mostrarSenha.BackColor = Color.Lime;
+                btn_mostrarSenha.BackgroundImage = Properties.Resources.show_password2;
             }
         }
 

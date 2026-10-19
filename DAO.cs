@@ -17,7 +17,7 @@ namespace AgenciaDeViagens
         public string[] telefone;
         public string[] endereco;
         public string[] email;
-        public string[] senha;
+        public string[] senha;        
         public int i;
         public int contador;
         public bool admLogado;
@@ -64,6 +64,7 @@ namespace AgenciaDeViagens
         this.endereco = new string[100];
         this.email = new string[100];
         this.senha = new string[100];
+        
 
 
 
@@ -83,6 +84,8 @@ namespace AgenciaDeViagens
             this.endereco[i] = leitura["endereco"] + "";
             this.email[i] = leitura["email"] + "";
             this.senha[i] = leitura["senha"] + "";
+            
+
 
             this.i++;
             this.contador++;
@@ -100,24 +103,25 @@ namespace AgenciaDeViagens
     {
         int i;
         i = 0;
-        while(cpf != this.cpf[i])//Procura pelo vetor de cpf's
+
+        //Procura pelo vetor de cpf's
+        while (cpf != this.cpf[i])
         {
             i++;                
         }
 
         this.userLogado = nome[i];
         this.indexAuxiliar = i; //Para localizar a pessoa no banco
-        MessageBox.Show("DAO: \n\n" + this.indexAuxiliar);
+        
         if (cpf == this.cpf[i] && senha == this.senha[i])//Achou o cpf digitado na lista
         {
 
-                /*DEBUG
-                MessageBox.Show("i" + i);
-                MessageBox.Show(cpf + " é igual a " + this.cpf[i]);
-                MessageBox.Show(senha + " é igual a " + this.senha[i]);
-                MessageBox.Show(this.userLogado);*/
+            if (this.nome[i] == "adm")
+            {
+                    return 3;
+            }              
 
-                return 0;
+            return 0;
         }
         else
         {                
@@ -126,16 +130,33 @@ namespace AgenciaDeViagens
     }//Fim validarLogin
 
 
-    public string AtualizarCliente(long cpf, string telefone, string email, string endereco, string senha)//para o pi adicione (string tabela)
+    public string AtualizarCliente(int codigo, string telefone, string email, string endereco, string senha)//para o p.i adicione (string tabela)
     {
         //utilize o update do sql
-        string query = $"update cliente set telefone = '{telefone}', email = '{email}, endereco = '{endereco}', senha = {senha} where cpf = {cpf}"; //atualizar
-        //string query = $"update cliente set nome = '{nome}' where cpf = '{cpf}'"; ---> inviável
-        MySqlCommand sql = new MySqlCommand(query, this.conexao);
+        string update = $"update cliente set telefone = '{telefone}', email = '{email}', endereco = '{endereco}', senha = '{senha}' where codigo = '{codigo}'"; //atualizar
+        MySqlCommand sql = new MySqlCommand(update, this.conexao);
+
         string resultado = sql.ExecuteNonQuery() + " Atualizado!";
         return resultado;
-    }//fim do Atualizar
+    }//fim do AtualizarCliente
 
+    public string ExcluirCliente(int codigo)
+    {
+            string delete = $"delete from cliente where codigo = '{codigo}'";
+            MySqlCommand sql = new MySqlCommand(delete, this.conexao);
+
+            string resultado = sql.ExecuteNonQuery() + "Excluído!";
+            return resultado;
+    }//fim do Excluir Cliente
+
+    public void DebugLogin()
+        {          
+            MessageBox.Show("DAO: \n\n" + this.indexAuxiliar);
+            MessageBox.Show("i" + i);
+            MessageBox.Show(cpf + " é igual a " + this.cpf[i]);
+            MessageBox.Show(senha + " é igual a " + this.senha[i]);
+            MessageBox.Show(this.userLogado);
+        }
 
     }//fim da classe DAO
 }//fim Projeto

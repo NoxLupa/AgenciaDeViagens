@@ -227,5 +227,12 @@
   <ItemGroup>
     <None Include="Resources\alt_image %281%291.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\show_password2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\hide_password.png" />
+    <None Include="Resources\hide_password1.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

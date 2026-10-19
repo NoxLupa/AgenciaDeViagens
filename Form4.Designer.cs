@@ -29,11 +29,6 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form4));
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panelCabecalho = new System.Windows.Forms.Panel();
             this.btnTodos = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
@@ -43,85 +38,44 @@
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.textBox11 = new System.Windows.Forms.TextBox();
             this.textBox10 = new System.Windows.Forms.TextBox();
             this.textBox9 = new System.Windows.Forms.TextBox();
             this.textBox8 = new System.Windows.Forms.TextBox();
             this.textBox7 = new System.Windows.Forms.TextBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.panel3 = new System.Windows.Forms.Panel();
             this.textBox16 = new System.Windows.Forms.TextBox();
             this.textBox15 = new System.Windows.Forms.TextBox();
             this.textBox14 = new System.Windows.Forms.TextBox();
             this.textBox13 = new System.Windows.Forms.TextBox();
             this.textBox12 = new System.Windows.Forms.TextBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.panel4 = new System.Windows.Forms.Panel();
             this.textBox21 = new System.Windows.Forms.TextBox();
             this.textBox20 = new System.Windows.Forms.TextBox();
             this.textBox19 = new System.Windows.Forms.TextBox();
             this.textBox18 = new System.Windows.Forms.TextBox();
             this.textBox17 = new System.Windows.Forms.TextBox();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.lbl_boasvindas = new System.Windows.Forms.Label();
             this.btnPerfil = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.BtnLogout = new System.Windows.Forms.Button();
             this.panelCabecalho.SuspendLayout();
             this.panelCancun.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.panel4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // pictureBox5
-            // 
-            this.pictureBox5.Image = global::AgenciaDeViagens.Properties.Resources.imagem_1_150x276;
-            this.pictureBox5.Location = new System.Drawing.Point(13, 8);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(150, 276);
-            this.pictureBox5.TabIndex = 4;
-            this.pictureBox5.TabStop = false;
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Image = global::AgenciaDeViagens.Properties.Resources.imagem_2_150x276;
-            this.pictureBox4.Location = new System.Drawing.Point(15, 11);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(150, 276);
-            this.pictureBox4.TabIndex = 3;
-            this.pictureBox4.TabStop = false;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Image = global::AgenciaDeViagens.Properties.Resources.imagem_3_150x276;
-            this.pictureBox3.Location = new System.Drawing.Point(13, 9);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(150, 276);
-            this.pictureBox3.TabIndex = 2;
-            this.pictureBox3.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::AgenciaDeViagens.Properties.Resources.imagem_150x276;
-            this.pictureBox2.Location = new System.Drawing.Point(14, 4);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(150, 267);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 1;
-            this.pictureBox2.TabStop = false;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::AgenciaDeViagens.Properties.Resources.logo_da_agencia_removebg_preview;
-            this.pictureBox1.Location = new System.Drawing.Point(-29, -22);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(176, 154);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
             // 
             // panelCabecalho
             // 
@@ -167,7 +121,7 @@
             this.panelCancun.Controls.Add(this.pictureBox2);
             this.panelCancun.Location = new System.Drawing.Point(23, 265);
             this.panelCancun.Name = "panelCancun";
-            this.panelCancun.Size = new System.Drawing.Size(180, 405);
+            this.panelCancun.Size = new System.Drawing.Size(180, 412);
             this.panelCancun.TabIndex = 9;
             // 
             // textBox6
@@ -211,6 +165,16 @@
             this.textBox2.TabIndex = 2;
             this.textBox2.Text = "Cancun Mexico";
             // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::AgenciaDeViagens.Properties.Resources.imagem_150x276;
+            this.pictureBox2.Location = new System.Drawing.Point(14, 4);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(150, 267);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 1;
+            this.pictureBox2.TabStop = false;
+            // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.SystemColors.ControlLight;
@@ -222,7 +186,7 @@
             this.panel2.Controls.Add(this.pictureBox3);
             this.panel2.Location = new System.Drawing.Point(275, 260);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(180, 410);
+            this.panel2.Size = new System.Drawing.Size(180, 412);
             this.panel2.TabIndex = 10;
             // 
             // textBox11
@@ -265,6 +229,15 @@
             this.textBox7.Size = new System.Drawing.Size(70, 20);
             this.textBox7.TabIndex = 3;
             this.textBox7.Text = "Recife Brasil";
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = global::AgenciaDeViagens.Properties.Resources.imagem_3_150x276;
+            this.pictureBox3.Location = new System.Drawing.Point(13, 9);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(150, 276);
+            this.pictureBox3.TabIndex = 2;
+            this.pictureBox3.TabStop = false;
             // 
             // panel3
             // 
@@ -320,6 +293,15 @@
             this.textBox12.TabIndex = 4;
             this.textBox12.Text = "Roma Itália";
             // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Image = global::AgenciaDeViagens.Properties.Resources.imagem_2_150x276;
+            this.pictureBox4.Location = new System.Drawing.Point(15, 11);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(150, 276);
+            this.pictureBox4.TabIndex = 3;
+            this.pictureBox4.TabStop = false;
+            // 
             // panel4
             // 
             this.panel4.BackColor = System.Drawing.SystemColors.ControlLight;
@@ -331,7 +313,7 @@
             this.panel4.Controls.Add(this.pictureBox5);
             this.panel4.Location = new System.Drawing.Point(804, 257);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(180, 413);
+            this.panel4.Size = new System.Drawing.Size(180, 412);
             this.panel4.TabIndex = 12;
             // 
             // textBox21
@@ -374,6 +356,15 @@
             this.textBox17.TabIndex = 5;
             this.textBox17.Text = "Salvador Bahia";
             // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Image = global::AgenciaDeViagens.Properties.Resources.imagem_1_150x276;
+            this.pictureBox5.Location = new System.Drawing.Point(13, 8);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(150, 276);
+            this.pictureBox5.TabIndex = 4;
+            this.pictureBox5.TabStop = false;
+            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -396,7 +387,7 @@
             // 
             // btnPerfil
             // 
-            this.btnPerfil.Location = new System.Drawing.Point(935, 20);
+            this.btnPerfil.Location = new System.Drawing.Point(854, 20);
             this.btnPerfil.Name = "btnPerfil";
             this.btnPerfil.Size = new System.Drawing.Size(75, 68);
             this.btnPerfil.TabIndex = 1;
@@ -404,11 +395,32 @@
             this.btnPerfil.UseVisualStyleBackColor = true;
             this.btnPerfil.Click += new System.EventHandler(this.btnPerfil_Click);
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::AgenciaDeViagens.Properties.Resources.logo_da_agencia_removebg_preview;
+            this.pictureBox1.Location = new System.Drawing.Point(-29, -22);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(176, 154);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            // 
+            // BtnLogout
+            // 
+            this.BtnLogout.Location = new System.Drawing.Point(935, 20);
+            this.BtnLogout.Name = "BtnLogout";
+            this.BtnLogout.Size = new System.Drawing.Size(75, 68);
+            this.BtnLogout.TabIndex = 15;
+            this.BtnLogout.Text = "Logout";
+            this.BtnLogout.UseVisualStyleBackColor = true;
+            this.BtnLogout.Click += new System.EventHandler(this.BtnLogout_Click);
+            // 
             // Form4
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1022, 722);
+            this.Controls.Add(this.BtnLogout);
             this.Controls.Add(this.btnPerfil);
             this.Controls.Add(this.lbl_boasvindas);
             this.Controls.Add(this.label1);
@@ -422,20 +434,20 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form4";
             this.Load += new System.EventHandler(this.Form4_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panelCabecalho.ResumeLayout(false);
             this.panelCancun.ResumeLayout(false);
             this.panelCancun.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -478,5 +490,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label lbl_boasvindas;
         private System.Windows.Forms.Button btnPerfil;
+        private System.Windows.Forms.Button BtnLogout;
     }
 }

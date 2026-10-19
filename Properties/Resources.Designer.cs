@@ -123,6 +123,16 @@ namespace AgenciaDeViagens.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap hide_password {
+            get {
+                object obj = ResourceManager.GetObject("hide_password", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap imagem {
             get {
                 object obj = ResourceManager.GetObject("imagem", resourceCulture);
@@ -206,6 +216,16 @@ namespace AgenciaDeViagens.Properties {
         internal static System.Drawing.Bitmap logoAgencia {
             get {
                 object obj = ResourceManager.GetObject("logoAgencia", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap show_password2 {
+            get {
+                object obj = ResourceManager.GetObject("show_password2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

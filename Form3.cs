@@ -34,17 +34,26 @@ namespace AgenciaDeViagens
             long cpfDigitado = Convert.ToInt64(RemoverFormatacaoCPF(mktxt_cpf.Text));
             string senhaDigitada = txt_senha.Text;
             
+            
             try {
                 if (bd.ValidarLogin(cpfDigitado, senhaDigitada) == 0)
                 {
+
                     telCompra1 = new Form4(bd.userLogado, bd.indexAuxiliar);                    
                     telCompra1.ShowDialog();
                     LimparLogin();                    
+                }                
+                else if(bd.ValidarLogin(cpfDigitado, senhaDigitada) == 3)
+                {
+                    MessageBox.Show("ADMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM");
+                    telCompra1 = new Form4(bd.userLogado, bd.indexAuxiliar);
+                    telCompra1.ShowDialog();
+                    LimparLogin();
                 }
-                else if(bd.ValidarLogin(cpfDigitado, senhaDigitada) == 1)
+                else if (bd.ValidarLogin(cpfDigitado, senhaDigitada) == 1)
                 {
                     MessageBox.Show("Usuário e/ou senha não confirmam!");
-                }                                
+                }
             }
             catch (Exception erro)
             {
@@ -59,25 +68,25 @@ namespace AgenciaDeViagens
             string cpfAlterado = cpf.Replace(",", "");
             cpfAlterado = cpfAlterado.Replace("-", "");
             return cpfAlterado;
-        }//fim do remover formatação
+        }//fim do RemoverFormataçãoCPF
 
         public void LimparLogin()
         {
             mktxt_cpf.Text = "";
             txt_senha.Text = "";
-        }
+        }//fim do LimparLogin
 
         private void btn_mostrarSenha_Click(object sender, EventArgs e)
         {
             if (txt_senha.UseSystemPasswordChar == true)
             {
-                txt_senha.UseSystemPasswordChar = false;                
-                btn_mostrarSenha.BackColor = Color.Red;
+                txt_senha.UseSystemPasswordChar = false;
+                btn_mostrarSenha.BackgroundImage = Properties.Resources.hide_password;
             }
             else
             {
-                txt_senha.UseSystemPasswordChar = true;                
-                btn_mostrarSenha.BackColor = Color.Lime;
+                txt_senha.UseSystemPasswordChar = true;
+                btn_mostrarSenha.BackgroundImage = Properties.Resources.show_password2;
             }
         }
     }

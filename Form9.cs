@@ -13,6 +13,7 @@ namespace AgenciaDeViagens
     public partial class TelaPerfil : Form
     {
         DAO bd;
+        int codigoAux;
         long cpf;        
         string telefone;
         string email;
@@ -24,7 +25,9 @@ namespace AgenciaDeViagens
             InitializeComponent();
             bd = new DAO();
             bd.PreencherVetor();
-            MessageBox.Show("PERFIL \n\n " + indexAuxiliar);
+            MessageBox.Show("PERFIL (INDEX): \n\n " + indexAuxiliar);
+
+            codigoAux = bd.codigo[indexAuxiliar];
             //Busca os dados no banco carregado no programa atráves do indexAuxiliar
             mktxt_cpf.Text = Convert.ToString(bd.cpf[indexAuxiliar]);
             mktxt_telefone.Text = bd.telefone[indexAuxiliar];
@@ -37,6 +40,11 @@ namespace AgenciaDeViagens
             //Bloqueia a alteração
             mktxt_cpf.ReadOnly = true;
             txt_nome.ReadOnly = true;
+
+            if (bd.nome[indexAuxiliar]=="adm") 
+            {
+                btn_excluir.Visible = false;
+            }
         }
 
         private void btn_voltar_Click(object sender, EventArgs e)
@@ -46,22 +54,30 @@ namespace AgenciaDeViagens
 
         private void btn_alterar_Click(object sender, EventArgs e)
         {
+            //MessageBox.Show("Codigo: " + this.codigoAux); //Debug
             try
             {
-                //Atualiza os dados existentes                
+                //Atualiza os dados existentes                                
                 this.telefone = mktxt_telefone.Text;
                 this.email = txt_email.Text;
                 this.endereco = txt_endereco.Text;
                 this.senha = txt_senha.Text;
 
-                //Preciso do cpf para localizar no banco
-                MessageBox.Show(bd.AtualizarCliente(cpf, telefone, email, endereco, senha));
+                if(txt_senha.Text != txt_senhaConfirma.Text)
+                {
+                    MessageBox.Show("Senhas não conferem!");
+                }
+                else
+                { 
+                    //Pega o codigo na DAO e usa pra localizar no banco
+                    MessageBox.Show(bd.AtualizarCliente(codigoAux, telefone, email, endereco, senha));
+                }
             }
             catch (Exception erro)
             {
                 MessageBox.Show("Ocorreu um erro!\n\n" + erro);
             }
-        }//Fim do btnAlterar       
+        }//Fim do btnAlterar  
 
         private void btn_mostrarSenha_Click(object sender, EventArgs e)
         {
@@ -69,15 +85,31 @@ namespace AgenciaDeViagens
             if (txt_senha.UseSystemPasswordChar == true)
             {
                 txt_senha.UseSystemPasswordChar = false;
-                txt_senhaConfirma.UseSystemPasswordChar = false;
-                btn_mostrarSenha.BackColor = Color.Red;
+                txt_senhaConfirma.UseSystemPasswordChar = false;                               
+                btn_mostrarSenha.BackgroundImage = Properties.Resources.hide_password;
             }
             else
             {
                 txt_senha.UseSystemPasswordChar = true;
                 txt_senhaConfirma.UseSystemPasswordChar = true;
-                btn_mostrarSenha.BackColor = Color.Lime;
+                btn_mostrarSenha.BackgroundImage = Properties.Resources.show_password2;
+
             }        
-        }//fim do btnMOstrarClick
+        }//fim do btnMostrarSenha
+
+        private void btn_excluir_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                MessageBox.Show(bd.ExcluirCliente(codigoAux));
+                this.Close();
+                
+
+            }catch (Exception erro)
+            {
+                MessageBox.Show("Ocorreu um erro! \n\n" + erro);
+            }
+
+        }//fim do BtnExcluir
     }
 }

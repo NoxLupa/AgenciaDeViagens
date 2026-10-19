@@ -18,7 +18,7 @@ namespace AgenciaDeViagens
         TelaPerfil perfil;
         public Form4(string userLogado, int indexAuxiliar)
         {
-            InitializeComponent();
+            InitializeComponent();            
             bd = new DAO();
             this.userLogado = userLogado;
             this.indexAuxiliar = indexAuxiliar;
@@ -46,8 +46,20 @@ namespace AgenciaDeViagens
 
         private void btnPerfil_Click(object sender, EventArgs e)
         {
+            
             perfil = new TelaPerfil(this.indexAuxiliar);
             perfil.ShowDialog();
         }
+
+        private void BtnLogout_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
+    /*
+      Form6 pacote4 = new Form6();
+            pacote4.ShowDialog();
+     Form5 pacote3 = new Form5();
+            pacote3.ShowDialog();
+    */
 }
