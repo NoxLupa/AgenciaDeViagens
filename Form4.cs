@@ -16,10 +16,12 @@ namespace AgenciaDeViagens
         string userLogado;
         int indexAuxiliar;
         TelaPerfil perfil;
+
         public Form4(string userLogado, int indexAuxiliar)
         {
             InitializeComponent();            
             bd = new DAO();
+            bd.PreencherVetor();
             this.userLogado = userLogado;
             this.indexAuxiliar = indexAuxiliar;
         }
@@ -54,6 +56,17 @@ namespace AgenciaDeViagens
         private void BtnLogout_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void BtnVerPacote2_Click(object sender, EventArgs e)
+        {
+            Pacote2 pacote2 = new Pacote2(this.indexAuxiliar);
+            pacote2.ShowDialog();
+        }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
         }
     }
     /*

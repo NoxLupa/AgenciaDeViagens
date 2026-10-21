@@ -44,10 +44,10 @@
             this.btn_confirmar = new System.Windows.Forms.Button();
             this.lbl_senha = new System.Windows.Forms.Label();
             this.lbl_senhaConfirma = new System.Windows.Forms.Label();
-            this.btn_mostrarSenha = new System.Windows.Forms.Button();
             this.txt_senha = new System.Windows.Forms.TextBox();
             this.txt_senhaConfirma = new System.Windows.Forms.TextBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.btn_mostrarSenha = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -64,7 +64,7 @@
             // 
             // btn_voltar
             // 
-            this.btn_voltar.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btn_voltar.BackColor = System.Drawing.SystemColors.Highlight;
             this.btn_voltar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver;
             this.btn_voltar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_voltar.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -186,7 +186,7 @@
             // 
             // btn_confirmar
             // 
-            this.btn_confirmar.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btn_confirmar.BackColor = System.Drawing.SystemColors.Highlight;
             this.btn_confirmar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver;
             this.btn_confirmar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_confirmar.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -221,20 +221,6 @@
             this.lbl_senhaConfirma.TabIndex = 10;
             this.lbl_senhaConfirma.Text = "Confirmar Senha:";
             // 
-            // btn_mostrarSenha
-            // 
-            this.btn_mostrarSenha.BackColor = System.Drawing.Color.Transparent;
-            this.btn_mostrarSenha.BackgroundImage = global::AgenciaDeViagens.Properties.Resources.show_password2;
-            this.btn_mostrarSenha.FlatAppearance.BorderSize = 0;
-            this.btn_mostrarSenha.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_mostrarSenha.ForeColor = System.Drawing.Color.Transparent;
-            this.btn_mostrarSenha.Location = new System.Drawing.Point(581, 287);
-            this.btn_mostrarSenha.Name = "btn_mostrarSenha";
-            this.btn_mostrarSenha.Size = new System.Drawing.Size(31, 29);
-            this.btn_mostrarSenha.TabIndex = 0;
-            this.btn_mostrarSenha.UseVisualStyleBackColor = false;
-            this.btn_mostrarSenha.Click += new System.EventHandler(this.btn_mostrarSenha_Click);
-            // 
             // txt_senha
             // 
             this.txt_senha.AccessibleDescription = "Digite sua senha";
@@ -266,6 +252,20 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 11;
             this.pictureBox1.TabStop = false;
+            // 
+            // btn_mostrarSenha
+            // 
+            this.btn_mostrarSenha.BackColor = System.Drawing.Color.Transparent;
+            this.btn_mostrarSenha.BackgroundImage = global::AgenciaDeViagens.Properties.Resources.show_password2;
+            this.btn_mostrarSenha.FlatAppearance.BorderSize = 0;
+            this.btn_mostrarSenha.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_mostrarSenha.ForeColor = System.Drawing.Color.Transparent;
+            this.btn_mostrarSenha.Location = new System.Drawing.Point(581, 287);
+            this.btn_mostrarSenha.Name = "btn_mostrarSenha";
+            this.btn_mostrarSenha.Size = new System.Drawing.Size(31, 29);
+            this.btn_mostrarSenha.TabIndex = 0;
+            this.btn_mostrarSenha.UseVisualStyleBackColor = false;
+            this.btn_mostrarSenha.Click += new System.EventHandler(this.btn_mostrarSenha_Click);
             // 
             // TelaCadastro
             // 

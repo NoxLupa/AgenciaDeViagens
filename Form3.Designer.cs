@@ -36,8 +36,8 @@
             this.btn_confirmar = new System.Windows.Forms.Button();
             this.txt_senha = new System.Windows.Forms.MaskedTextBox();
             this.mktxt_cpf = new System.Windows.Forms.MaskedTextBox();
-            this.img_logoLogin = new System.Windows.Forms.PictureBox();
             this.btn_mostrarSenha = new System.Windows.Forms.Button();
+            this.img_logoLogin = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.img_logoLogin)).BeginInit();
             this.SuspendLayout();
             // 
@@ -65,7 +65,7 @@
             // 
             // btn_voltar
             // 
-            this.btn_voltar.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btn_voltar.BackColor = System.Drawing.SystemColors.Highlight;
             this.btn_voltar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver;
             this.btn_voltar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_voltar.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -91,7 +91,7 @@
             // 
             // btn_confirmar
             // 
-            this.btn_confirmar.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btn_confirmar.BackColor = System.Drawing.SystemColors.Highlight;
             this.btn_confirmar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver;
             this.btn_confirmar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_confirmar.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -126,16 +126,6 @@
             this.mktxt_cpf.Size = new System.Drawing.Size(377, 29);
             this.mktxt_cpf.TabIndex = 1;
             // 
-            // img_logoLogin
-            // 
-            this.img_logoLogin.Image = global::AgenciaDeViagens.Properties.Resources.logoAgencia;
-            this.img_logoLogin.Location = new System.Drawing.Point(-36, -6);
-            this.img_logoLogin.Name = "img_logoLogin";
-            this.img_logoLogin.Size = new System.Drawing.Size(195, 123);
-            this.img_logoLogin.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.img_logoLogin.TabIndex = 14;
-            this.img_logoLogin.TabStop = false;
-            // 
             // btn_mostrarSenha
             // 
             this.btn_mostrarSenha.BackColor = System.Drawing.Color.Transparent;
@@ -149,6 +139,16 @@
             this.btn_mostrarSenha.TabIndex = 15;
             this.btn_mostrarSenha.UseVisualStyleBackColor = false;
             this.btn_mostrarSenha.Click += new System.EventHandler(this.btn_mostrarSenha_Click);
+            // 
+            // img_logoLogin
+            // 
+            this.img_logoLogin.Image = global::AgenciaDeViagens.Properties.Resources.logoAgencia;
+            this.img_logoLogin.Location = new System.Drawing.Point(-36, -6);
+            this.img_logoLogin.Name = "img_logoLogin";
+            this.img_logoLogin.Size = new System.Drawing.Size(195, 123);
+            this.img_logoLogin.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.img_logoLogin.TabIndex = 14;
+            this.img_logoLogin.TabStop = false;
             // 
             // TelaLogin
             // 

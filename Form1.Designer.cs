@@ -37,7 +37,7 @@
             // 
             // btn_cadastrar
             // 
-            this.btn_cadastrar.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btn_cadastrar.BackColor = System.Drawing.SystemColors.Highlight;
             this.btn_cadastrar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver;
             this.btn_cadastrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_cadastrar.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -52,7 +52,7 @@
             // 
             // btn_login
             // 
-            this.btn_login.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btn_login.BackColor = System.Drawing.SystemColors.Highlight;
             this.btn_login.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver;
             this.btn_login.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_login.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -68,7 +68,7 @@
             // img_logoLogin
             // 
             this.img_logoLogin.Image = global::AgenciaDeViagens.Properties.Resources.logoAgencia;
-            this.img_logoLogin.Location = new System.Drawing.Point(243, 3);
+            this.img_logoLogin.Location = new System.Drawing.Point(248, 1);
             this.img_logoLogin.Name = "img_logoLogin";
             this.img_logoLogin.Size = new System.Drawing.Size(291, 276);
             this.img_logoLogin.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;

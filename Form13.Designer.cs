@@ -102,7 +102,7 @@
             this.btn_alterar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_alterar.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_alterar.ForeColor = System.Drawing.SystemColors.Control;
-            this.btn_alterar.Location = new System.Drawing.Point(219, 398);
+            this.btn_alterar.Location = new System.Drawing.Point(649, 398);
             this.btn_alterar.Name = "btn_alterar";
             this.btn_alterar.Size = new System.Drawing.Size(139, 40);
             this.btn_alterar.TabIndex = 8;
@@ -224,7 +224,7 @@
             this.btn_voltar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_voltar.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_voltar.ForeColor = System.Drawing.SystemColors.Control;
-            this.btn_voltar.Location = new System.Drawing.Point(649, 398);
+            this.btn_voltar.Location = new System.Drawing.Point(12, 398);
             this.btn_voltar.Name = "btn_voltar";
             this.btn_voltar.Size = new System.Drawing.Size(139, 40);
             this.btn_voltar.TabIndex = 10;
@@ -250,7 +250,7 @@
             this.btn_excluir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_excluir.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_excluir.ForeColor = System.Drawing.SystemColors.Control;
-            this.btn_excluir.Location = new System.Drawing.Point(426, 398);
+            this.btn_excluir.Location = new System.Drawing.Point(480, 398);
             this.btn_excluir.Name = "btn_excluir";
             this.btn_excluir.Size = new System.Drawing.Size(139, 40);
             this.btn_excluir.TabIndex = 9;

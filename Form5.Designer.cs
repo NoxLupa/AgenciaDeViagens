@@ -30,73 +30,40 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form5));
             this.panelCabecalho = new System.Windows.Forms.Panel();
-            this.btnPromocao = new System.Windows.Forms.Button();
-            this.btnInternacionais = new System.Windows.Forms.Button();
-            this.btnNacionais = new System.Windows.Forms.Button();
             this.btnTodos = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.textBox4 = new System.Windows.Forms.TextBox();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.BtnComprar = new System.Windows.Forms.Button();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.btnPerfil = new System.Windows.Forms.Button();
+            this.BtnLogout = new System.Windows.Forms.Button();
             this.panelCabecalho.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // panelCabecalho
             // 
             this.panelCabecalho.AutoScrollMargin = new System.Drawing.Size(0, 110);
             this.panelCabecalho.BackColor = System.Drawing.SystemColors.Highlight;
-            this.panelCabecalho.Controls.Add(this.btnPromocao);
-            this.panelCabecalho.Controls.Add(this.btnInternacionais);
-            this.panelCabecalho.Controls.Add(this.btnNacionais);
             this.panelCabecalho.Controls.Add(this.btnTodos);
             this.panelCabecalho.Location = new System.Drawing.Point(0, 98);
             this.panelCabecalho.Name = "panelCabecalho";
             this.panelCabecalho.Size = new System.Drawing.Size(1025, 59);
             this.panelCabecalho.TabIndex = 7;
             // 
-            // btnPromocao
-            // 
-            this.btnPromocao.BackColor = System.Drawing.Color.Transparent;
-            this.btnPromocao.Location = new System.Drawing.Point(818, 18);
-            this.btnPromocao.Name = "btnPromocao";
-            this.btnPromocao.Size = new System.Drawing.Size(75, 23);
-            this.btnPromocao.TabIndex = 9;
-            this.btnPromocao.Text = "Promoção";
-            this.btnPromocao.UseVisualStyleBackColor = false;
-            // 
-            // btnInternacionais
-            // 
-            this.btnInternacionais.Location = new System.Drawing.Point(617, 18);
-            this.btnInternacionais.Name = "btnInternacionais";
-            this.btnInternacionais.Size = new System.Drawing.Size(135, 23);
-            this.btnInternacionais.TabIndex = 8;
-            this.btnInternacionais.Text = "Pacotes internacionais";
-            this.btnInternacionais.UseVisualStyleBackColor = true;
-            // 
-            // btnNacionais
-            // 
-            this.btnNacionais.Location = new System.Drawing.Point(406, 18);
-            this.btnNacionais.Name = "btnNacionais";
-            this.btnNacionais.Size = new System.Drawing.Size(117, 23);
-            this.btnNacionais.TabIndex = 7;
-            this.btnNacionais.Text = "Pacotes nacionais";
-            this.btnNacionais.UseVisualStyleBackColor = true;
-            // 
             // btnTodos
             // 
-            this.btnTodos.Location = new System.Drawing.Point(189, 18);
+            this.btnTodos.Location = new System.Drawing.Point(472, 20);
             this.btnTodos.Name = "btnTodos";
             this.btnTodos.Size = new System.Drawing.Size(119, 23);
             this.btnTodos.TabIndex = 6;
@@ -149,6 +116,28 @@
             this.textBox4.TabIndex = 12;
             this.textBox4.Text = "Hotel Taurati Apartaments";
             // 
+            // textBox5
+            // 
+            this.textBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.textBox5.Location = new System.Drawing.Point(34, 664);
+            this.textBox5.Multiline = true;
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(921, 99);
+            this.textBox5.TabIndex = 0;
+            this.textBox5.Text = resources.GetString("textBox5.Text");
+            this.textBox5.TextChanged += new System.EventHandler(this.textBox5_TextChanged);
+            // 
+            // BtnComprar
+            // 
+            this.BtnComprar.BackColor = System.Drawing.Color.LimeGreen;
+            this.BtnComprar.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
+            this.BtnComprar.Location = new System.Drawing.Point(34, 817);
+            this.BtnComprar.Name = "BtnComprar";
+            this.BtnComprar.Size = new System.Drawing.Size(276, 60);
+            this.BtnComprar.TabIndex = 27;
+            this.BtnComprar.Text = "Comprar";
+            this.BtnComprar.UseVisualStyleBackColor = false;
+            // 
             // pictureBox4
             // 
             this.pictureBox4.Image = global::AgenciaDeViagens.Properties.Resources.imagem_298x221;
@@ -186,31 +175,33 @@
             this.pictureBox1.TabIndex = 6;
             this.pictureBox1.TabStop = false;
             // 
-            // panel2
+            // btnPerfil
             // 
-            this.panel2.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.panel2.Controls.Add(this.textBox5);
-            this.panel2.Location = new System.Drawing.Point(39, 631);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(927, 151);
-            this.panel2.TabIndex = 16;
+            this.btnPerfil.Location = new System.Drawing.Point(842, 12);
+            this.btnPerfil.Name = "btnPerfil";
+            this.btnPerfil.Size = new System.Drawing.Size(75, 68);
+            this.btnPerfil.TabIndex = 28;
+            this.btnPerfil.Text = "Perfil";
+            this.btnPerfil.UseVisualStyleBackColor = true;
             // 
-            // textBox5
+            // BtnLogout
             // 
-            this.textBox5.Location = new System.Drawing.Point(3, 18);
-            this.textBox5.Multiline = true;
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(921, 99);
-            this.textBox5.TabIndex = 0;
-            this.textBox5.Text = resources.GetString("textBox5.Text");
-            this.textBox5.TextChanged += new System.EventHandler(this.textBox5_TextChanged);
+            this.BtnLogout.Location = new System.Drawing.Point(940, 12);
+            this.BtnLogout.Name = "BtnLogout";
+            this.BtnLogout.Size = new System.Drawing.Size(75, 68);
+            this.BtnLogout.TabIndex = 29;
+            this.BtnLogout.Text = "Logout";
+            this.BtnLogout.UseVisualStyleBackColor = true;
             // 
             // Form5
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1027, 931);
-            this.Controls.Add(this.panel2);
+            this.ClientSize = new System.Drawing.Size(1027, 912);
+            this.Controls.Add(this.BtnLogout);
+            this.Controls.Add(this.btnPerfil);
+            this.Controls.Add(this.BtnComprar);
+            this.Controls.Add(this.textBox5);
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox2);
@@ -228,8 +219,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            this.panel2.ResumeLayout(false);
-            this.panel2.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -238,9 +227,6 @@
         #endregion
 
         private System.Windows.Forms.Panel panelCabecalho;
-        private System.Windows.Forms.Button btnPromocao;
-        private System.Windows.Forms.Button btnInternacionais;
-        private System.Windows.Forms.Button btnNacionais;
         private System.Windows.Forms.Button btnTodos;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.TextBox textBox1;
@@ -251,7 +237,9 @@
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox4;
-        private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.Button BtnComprar;
+        private System.Windows.Forms.Button btnPerfil;
+        private System.Windows.Forms.Button BtnLogout;
     }
 }

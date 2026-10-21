@@ -11,18 +11,40 @@ namespace AgenciaDeViagens
     class DAO
     {
         public MySqlConnection conexao;
+
+        //universal
+        public int i;
+        public int contador;
+
+        //cliente
         public int[] codigo;
         public long[] cpf;
         public string[] nome;
         public string[] telefone;
         public string[] endereco;
         public string[] email;
-        public string[] senha;        
-        public int i;
-        public int contador;
+        public string[] senha;            
         public bool admLogado;
         public string userLogado;
         public int indexAuxiliar;
+
+        //pacote
+        public int[] codigoPacote;
+        public string[] destino;
+        public int[] valor;
+        public int[] dataIda;
+        public int[] dataVolta;
+        public string[] nomeHotel;
+        public string[] descricao;
+
+        //empresa
+        public int[] codigoEmpresa;
+        public string[] nomeEmpresa;
+        public long[] CNPJ;
+
+        //tipoTransporte
+        public int[] codigoTransporte;
+        public string[] nomeTransporte;
 
         public DAO()
         {
@@ -63,10 +85,7 @@ namespace AgenciaDeViagens
         this.telefone = new string[100];
         this.endereco = new string[100];
         this.email = new string[100];
-        this.senha = new string[100];
-        
-
-
+        this.senha = new string[100];        
 
         MySqlCommand sql = new MySqlCommand(select, this.conexao);
 
@@ -83,9 +102,7 @@ namespace AgenciaDeViagens
             this.telefone[i] = leitura["telefone"] + "";
             this.endereco[i] = leitura["endereco"] + "";
             this.email[i] = leitura["email"] + "";
-            this.senha[i] = leitura["senha"] + "";
-            
-
+            this.senha[i] = leitura["senha"] + "";            
 
             this.i++;
             this.contador++;
@@ -94,7 +111,59 @@ namespace AgenciaDeViagens
         leitura.Close();
     }//fim Preencher Vetor
 
-    public int QuantidadeDados()
+    public void PreencherVetorPacote() 
+    {
+        string selectPacote = "select * from pacoteViagem";
+
+        //instanciar
+        this.codigoPacote = new int[100];
+        this.destino = new string[100];
+        this.valor = new int[100];
+        this.dataIda = new int[100];
+        this.dataVolta = new int[100];
+        this.nomeHotel = new string[100];
+        this.descricao = new string[100];
+
+        MySqlCommand sqlPacote = new MySqlCommand(selectPacote, this.conexao);
+        MySqlDataReader leitura = sqlPacote.ExecuteReader();
+
+        this.i = 0;
+        this.contador = 0;
+
+        while (leitura.Read())
+        {
+            this.codigoPacote[i] = Convert.ToInt32(leitura["codigo"]);
+            this.destino[i] = leitura["destino"] + "";
+            this.valor[i] = Convert.ToInt32(leitura["valor"]);
+            this.dataIda[i] = Convert.ToInt32(leitura["dataIda"]);
+            this.dataVolta[i] = Convert.ToInt32(leitura["dataVolta"]);
+            this.nomeHotel[i] = leitura["nomeHotel"] + "";
+            this.descricao[i] = leitura["descricao"] + "";
+
+            this.i++;
+            this.contador++;
+        }//fim while
+        leitura.Close();
+    }//fim PreencherPacote
+
+    public void PreencherVetorEmpresa() 
+    {
+        this.codigoEmpresa = new int[50];
+        this.nomeEmpresa = new string[50];
+        this.CNPJ = new long[50];
+
+    }//fimPreencherEmpresa
+
+    public void PreencherVetorTipoTransporte()
+    {
+
+    
+    }//fimPreecherTransporte
+
+    //oiiiii
+    //helloooo =)
+
+        public int QuantidadeDados()
     {
         return this.contador;
     }//fim QuantidadeDados

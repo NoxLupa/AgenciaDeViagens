@@ -17,6 +17,7 @@ namespace AgenciaDeViagens
         public TelaInicio()
         {            
             InitializeComponent();          
+          
         }
 
         private void btn_cadastrar_Click(object sender, EventArgs e)

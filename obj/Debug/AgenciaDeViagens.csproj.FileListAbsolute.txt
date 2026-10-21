@@ -134,3 +134,11 @@ C:\Users\ana.clima44\source\repos\AgenciaDeViagens\obj\Debug\AgenciaDeViagens.cs
 C:\Users\ana.clima44\source\repos\AgenciaDeViagens\obj\Debug\AgenciaD.EC65B6E7.Up2Date
 C:\Users\ana.clima44\source\repos\AgenciaDeViagens\obj\Debug\AgenciaDeViagens.exe
 C:\Users\ana.clima44\source\repos\AgenciaDeViagens\obj\Debug\AgenciaDeViagens.pdb
+C:\Users\ana.clima44\source\repos\AgenciaDeViagens\obj\Debug\AgenciaDeViagens.CompraR.resources
+C:\Users\ana.clima44\source\repos\AgenciaDeViagens\obj\Debug\AgenciaDeViagens.Form11.resources
+C:\Users\ana.clima44\source\repos\AgenciaDeViagens\obj\Debug\AgenciaDeViagens.Pacote2.resources
+C:\Users\ana.clima44\source\repos\AgenciaDeViagens\obj\Debug\AgenciaDeViagens.Form8.resources
+C:\Users\ana.clima44\source\repos\AgenciaDeViagens\obj\Debug\AgenciaDeViagens.FormADMIN.resources
+C:\Users\ana.clima44\source\repos\AgenciaDeViagens\obj\Debug\AgenciaDeViagens.FormADMINClientes.resources
+C:\Users\ana.clima44\source\repos\AgenciaDeViagens\obj\Debug\AgenciaDeViagens.FormADMINexplodircliente.resources
+C:\Users\ana.clima44\source\repos\AgenciaDeViagens\obj\Debug\AgenciaDeViagens.FormConsultarCliente.resources

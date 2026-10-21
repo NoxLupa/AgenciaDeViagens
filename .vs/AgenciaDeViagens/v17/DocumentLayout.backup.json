@@ -3,56 +3,96 @@
   "WorkspaceRootPath": "C:\\Users\\ana.clima44\\source\\repos\\AgenciaDeViagens\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0F2C0DF4-892A-4714-B5F3-422BD1AFA8A7}|AgenciaDeViagens.csproj|C:\\Users\\ana.clima44\\source\\repos\\AgenciaDeViagens\\form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F2C0DF4-892A-4714-B5F3-422BD1AFA8A7}|AgenciaDeViagens.csproj|solutionrelative:form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0F2C0DF4-892A-4714-B5F3-422BD1AFA8A7}|AgenciaDeViagens.csproj|C:\\Users\\ana.clima44\\source\\repos\\AgenciaDeViagens\\form11.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0F2C0DF4-892A-4714-B5F3-422BD1AFA8A7}|AgenciaDeViagens.csproj|solutionrelative:form11.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0F2C0DF4-892A-4714-B5F3-422BD1AFA8A7}|AgenciaDeViagens.csproj|C:\\Users\\ana.clima44\\source\\repos\\AgenciaDeViagens\\form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{0F2C0DF4-892A-4714-B5F3-422BD1AFA8A7}|AgenciaDeViagens.csproj|solutionrelative:form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{0F2C0DF4-892A-4714-B5F3-422BD1AFA8A7}|AgenciaDeViagens.csproj|c:\\users\\ana.clima44\\source\\repos\\agenciadeviagens\\formadminclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0F2C0DF4-892A-4714-B5F3-422BD1AFA8A7}|AgenciaDeViagens.csproj|solutionrelative:formadminclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0F2C0DF4-892A-4714-B5F3-422BD1AFA8A7}|AgenciaDeViagens.csproj|c:\\users\\ana.clima44\\source\\repos\\agenciadeviagens\\form9.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F2C0DF4-892A-4714-B5F3-422BD1AFA8A7}|AgenciaDeViagens.csproj|solutionrelative:form9.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0F2C0DF4-892A-4714-B5F3-422BD1AFA8A7}|AgenciaDeViagens.csproj|C:\\Users\\ana.clima44\\source\\repos\\AgenciaDeViagens\\form13.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0F2C0DF4-892A-4714-B5F3-422BD1AFA8A7}|AgenciaDeViagens.csproj|solutionrelative:form13.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0F2C0DF4-892A-4714-B5F3-422BD1AFA8A7}|AgenciaDeViagens.csproj|C:\\Users\\ana.clima44\\source\\repos\\AgenciaDeViagens\\form9.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{0F2C0DF4-892A-4714-B5F3-422BD1AFA8A7}|AgenciaDeViagens.csproj|solutionrelative:form9.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{0F2C0DF4-892A-4714-B5F3-422BD1AFA8A7}|AgenciaDeViagens.csproj|c:\\users\\ana.clima44\\source\\repos\\agenciadeviagens\\formadminexplodircliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0F2C0DF4-892A-4714-B5F3-422BD1AFA8A7}|AgenciaDeViagens.csproj|solutionrelative:formadminexplodircliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0F2C0DF4-892A-4714-B5F3-422BD1AFA8A7}|AgenciaDeViagens.csproj|C:\\Users\\ana.clima44\\source\\repos\\AgenciaDeViagens\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F2C0DF4-892A-4714-B5F3-422BD1AFA8A7}|AgenciaDeViagens.csproj|solutionrelative:form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0F2C0DF4-892A-4714-B5F3-422BD1AFA8A7}|AgenciaDeViagens.csproj|c:\\users\\ana.clima44\\source\\repos\\agenciadeviagens\\formconsultarcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0F2C0DF4-892A-4714-B5F3-422BD1AFA8A7}|AgenciaDeViagens.csproj|solutionrelative:formconsultarcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0F2C0DF4-892A-4714-B5F3-422BD1AFA8A7}|AgenciaDeViagens.csproj|C:\\Users\\ana.clima44\\source\\repos\\AgenciaDeViagens\\form5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{0F2C0DF4-892A-4714-B5F3-422BD1AFA8A7}|AgenciaDeViagens.csproj|solutionrelative:form5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F2C0DF4-892A-4714-B5F3-422BD1AFA8A7}|AgenciaDeViagens.csproj|c:\\users\\ana.clima44\\source\\repos\\agenciadeviagens\\form4.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F2C0DF4-892A-4714-B5F3-422BD1AFA8A7}|AgenciaDeViagens.csproj|solutionrelative:form4.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0F2C0DF4-892A-4714-B5F3-422BD1AFA8A7}|AgenciaDeViagens.csproj|c:\\users\\ana.clima44\\source\\repos\\agenciadeviagens\\formadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0F2C0DF4-892A-4714-B5F3-422BD1AFA8A7}|AgenciaDeViagens.csproj|solutionrelative:formadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0F2C0DF4-892A-4714-B5F3-422BD1AFA8A7}|AgenciaDeViagens.csproj|C:\\Users\\ana.clima44\\source\\repos\\AgenciaDeViagens\\form6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{0F2C0DF4-892A-4714-B5F3-422BD1AFA8A7}|AgenciaDeViagens.csproj|solutionrelative:form6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{0F2C0DF4-892A-4714-B5F3-422BD1AFA8A7}|AgenciaDeViagens.csproj|c:\\users\\ana.clima44\\source\\repos\\agenciadeviagens\\form7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0F2C0DF4-892A-4714-B5F3-422BD1AFA8A7}|AgenciaDeViagens.csproj|solutionrelative:form7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F2C0DF4-892A-4714-B5F3-422BD1AFA8A7}|AgenciaDeViagens.csproj|C:\\Users\\ana.clima44\\source\\repos\\AgenciaDeViagens\\form8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0F2C0DF4-892A-4714-B5F3-422BD1AFA8A7}|AgenciaDeViagens.csproj|solutionrelative:form8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F2C0DF4-892A-4714-B5F3-422BD1AFA8A7}|AgenciaDeViagens.csproj|c:\\users\\ana.clima44\\source\\repos\\agenciadeviagens\\form7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F2C0DF4-892A-4714-B5F3-422BD1AFA8A7}|AgenciaDeViagens.csproj|solutionrelative:form7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0F2C0DF4-892A-4714-B5F3-422BD1AFA8A7}|AgenciaDeViagens.csproj|C:\\Users\\ana.clima44\\source\\repos\\AgenciaDeViagens\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{0F2C0DF4-892A-4714-B5F3-422BD1AFA8A7}|AgenciaDeViagens.csproj|solutionrelative:form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0F2C0DF4-892A-4714-B5F3-422BD1AFA8A7}|AgenciaDeViagens.csproj|C:\\Users\\ana.clima44\\source\\repos\\AgenciaDeViagens\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F2C0DF4-892A-4714-B5F3-422BD1AFA8A7}|AgenciaDeViagens.csproj|solutionrelative:form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F2C0DF4-892A-4714-B5F3-422BD1AFA8A7}|AgenciaDeViagens.csproj|C:\\Users\\ana.clima44\\source\\repos\\AgenciaDeViagens\\dao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F2C0DF4-892A-4714-B5F3-422BD1AFA8A7}|AgenciaDeViagens.csproj|solutionrelative:dao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F2C0DF4-892A-4714-B5F3-422BD1AFA8A7}|AgenciaDeViagens.csproj|C:\\Users\\ana.clima44\\source\\repos\\AgenciaDeViagens\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F2C0DF4-892A-4714-B5F3-422BD1AFA8A7}|AgenciaDeViagens.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0F2C0DF4-892A-4714-B5F3-422BD1AFA8A7}|AgenciaDeViagens.csproj|C:\\Users\\ana.clima44\\source\\repos\\AgenciaDeViagens\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{0F2C0DF4-892A-4714-B5F3-422BD1AFA8A7}|AgenciaDeViagens.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F2C0DF4-892A-4714-B5F3-422BD1AFA8A7}|AgenciaDeViagens.csproj|C:\\Users\\ana.clima44\\source\\repos\\AgenciaDeViagens\\Form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F2C0DF4-892A-4714-B5F3-422BD1AFA8A7}|AgenciaDeViagens.csproj|solutionrelative:Form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F2C0DF4-892A-4714-B5F3-422BD1AFA8A7}|AgenciaDeViagens.csproj|C:\\Users\\ana.clima44\\source\\repos\\AgenciaDeViagens\\Form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F2C0DF4-892A-4714-B5F3-422BD1AFA8A7}|AgenciaDeViagens.csproj|solutionrelative:Form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F2C0DF4-892A-4714-B5F3-422BD1AFA8A7}|AgenciaDeViagens.csproj|C:\\Users\\ana.clima44\\source\\repos\\AgenciaDeViagens\\Form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F2C0DF4-892A-4714-B5F3-422BD1AFA8A7}|AgenciaDeViagens.csproj|solutionrelative:Form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F2C0DF4-892A-4714-B5F3-422BD1AFA8A7}|AgenciaDeViagens.csproj|C:\\Users\\ana.clima44\\source\\repos\\AgenciaDeViagens\\form5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0F2C0DF4-892A-4714-B5F3-422BD1AFA8A7}|AgenciaDeViagens.csproj|solutionrelative:form5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F2C0DF4-892A-4714-B5F3-422BD1AFA8A7}|AgenciaDeViagens.csproj|C:\\Users\\ana.clima44\\source\\repos\\AgenciaDeViagens\\form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0F2C0DF4-892A-4714-B5F3-422BD1AFA8A7}|AgenciaDeViagens.csproj|solutionrelative:form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F2C0DF4-892A-4714-B5F3-422BD1AFA8A7}|AgenciaDeViagens.csproj|c:\\users\\ana.clima44\\source\\repos\\agenciadeviagens\\form10.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0F2C0DF4-892A-4714-B5F3-422BD1AFA8A7}|AgenciaDeViagens.csproj|solutionrelative:form10.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F2C0DF4-892A-4714-B5F3-422BD1AFA8A7}|AgenciaDeViagens.csproj|c:\\users\\ana.clima44\\source\\repos\\agenciadeviagens\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0F2C0DF4-892A-4714-B5F3-422BD1AFA8A7}|AgenciaDeViagens.csproj|solutionrelative:form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F2C0DF4-892A-4714-B5F3-422BD1AFA8A7}|AgenciaDeViagens.csproj|c:\\users\\ana.clima44\\source\\repos\\agenciadeviagens\\form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F2C0DF4-892A-4714-B5F3-422BD1AFA8A7}|AgenciaDeViagens.csproj|solutionrelative:form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F2C0DF4-892A-4714-B5F3-422BD1AFA8A7}|AgenciaDeViagens.csproj|C:\\Users\\ana.clima44\\source\\repos\\AgenciaDeViagens\\Form13.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F2C0DF4-892A-4714-B5F3-422BD1AFA8A7}|AgenciaDeViagens.csproj|solutionrelative:Form13.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F2C0DF4-892A-4714-B5F3-422BD1AFA8A7}|AgenciaDeViagens.csproj|C:\\Users\\ana.clima44\\source\\repos\\AgenciaDeViagens\\DAO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F2C0DF4-892A-4714-B5F3-422BD1AFA8A7}|AgenciaDeViagens.csproj|solutionrelative:DAO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F2C0DF4-892A-4714-B5F3-422BD1AFA8A7}|AgenciaDeViagens.csproj|c:\\users\\ana.clima44\\source\\repos\\agenciadeviagens\\form10.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F2C0DF4-892A-4714-B5F3-422BD1AFA8A7}|AgenciaDeViagens.csproj|solutionrelative:form10.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,125 +102,158 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Form4.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\ana.clima44\\source\\repos\\AgenciaDeViagens\\Form4.Designer.cs",
-              "RelativeDocumentMoniker": "Form4.Designer.cs",
-              "ToolTip": "C:\\Users\\ana.clima44\\source\\repos\\AgenciaDeViagens\\Form4.Designer.cs",
-              "RelativeToolTip": "Form4.Designer.cs",
-              "ViewState": "AgIAAB4BAAAAAAAAAAAQwDwBAAAmAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "FormConsultarCliente.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ana.clima44\\source\\repos\\AgenciaDeViagens\\FormConsultarCliente.cs",
+              "RelativeDocumentMoniker": "FormConsultarCliente.cs",
+              "ToolTip": "C:\\Users\\ana.clima44\\source\\repos\\AgenciaDeViagens\\FormConsultarCliente.cs [Design]",
+              "RelativeToolTip": "FormConsultarCliente.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-19T13:59:10.873Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Form9.cs",
-              "DocumentMoniker": "C:\\Users\\ana.clima44\\source\\repos\\AgenciaDeViagens\\Form9.cs",
-              "RelativeDocumentMoniker": "Form9.cs",
-              "ToolTip": "C:\\Users\\ana.clima44\\source\\repos\\AgenciaDeViagens\\Form9.cs",
-              "RelativeToolTip": "Form9.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAQwC0AAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-14T14:14:24.18Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Form9.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\ana.clima44\\source\\repos\\AgenciaDeViagens\\Form9.cs",
-              "RelativeDocumentMoniker": "Form9.cs",
-              "ToolTip": "C:\\Users\\ana.clima44\\source\\repos\\AgenciaDeViagens\\Form9.cs [Design]",
-              "RelativeToolTip": "Form9.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-14T14:05:19.019Z",
+              "WhenOpened": "2026-10-21T14:41:21.349Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 3,
+              "Title": "FormADMINexplodircliente.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ana.clima44\\source\\repos\\AgenciaDeViagens\\FormADMINexplodircliente.cs",
+              "RelativeDocumentMoniker": "FormADMINexplodircliente.cs",
+              "ToolTip": "C:\\Users\\ana.clima44\\source\\repos\\AgenciaDeViagens\\FormADMINexplodircliente.cs [Design]",
+              "RelativeToolTip": "FormADMINexplodircliente.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-21T14:28:38.864Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form13.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ana.clima44\\source\\repos\\AgenciaDeViagens\\Form13.cs",
+              "RelativeDocumentMoniker": "Form13.cs",
+              "ToolTip": "C:\\Users\\ana.clima44\\source\\repos\\AgenciaDeViagens\\Form13.cs [Design]",
+              "RelativeToolTip": "Form13.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-21T11:27:02.597Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FormADMINClientes.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ana.clima44\\source\\repos\\AgenciaDeViagens\\FormADMINClientes.cs",
+              "RelativeDocumentMoniker": "FormADMINClientes.cs",
+              "ToolTip": "C:\\Users\\ana.clima44\\source\\repos\\AgenciaDeViagens\\FormADMINClientes.cs [Design]",
+              "RelativeToolTip": "FormADMINClientes.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-21T14:15:18.2Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Form7.cs",
+              "DocumentMoniker": "C:\\Users\\ana.clima44\\source\\repos\\AgenciaDeViagens\\Form7.cs",
+              "RelativeDocumentMoniker": "Form7.cs",
+              "ToolTip": "C:\\Users\\ana.clima44\\source\\repos\\AgenciaDeViagens\\Form7.cs",
+              "RelativeToolTip": "Form7.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAuwB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-21T12:57:10.781Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Form4.cs",
+              "DocumentMoniker": "C:\\Users\\ana.clima44\\source\\repos\\AgenciaDeViagens\\Form4.cs",
+              "RelativeDocumentMoniker": "Form4.cs",
+              "ToolTip": "C:\\Users\\ana.clima44\\source\\repos\\AgenciaDeViagens\\Form4.cs",
+              "RelativeToolTip": "Form4.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAswD4AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-21T12:56:17.79Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
               "Title": "DAO.cs",
               "DocumentMoniker": "C:\\Users\\ana.clima44\\source\\repos\\AgenciaDeViagens\\DAO.cs",
               "RelativeDocumentMoniker": "DAO.cs",
               "ToolTip": "C:\\Users\\ana.clima44\\source\\repos\\AgenciaDeViagens\\DAO.cs",
               "RelativeToolTip": "DAO.cs",
-              "ViewState": "AgIAADYAAAAAAAAAAAA2wIkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAowJ8AAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-14T11:49:33.005Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Form3.cs",
-              "DocumentMoniker": "C:\\Users\\ana.clima44\\source\\repos\\AgenciaDeViagens\\Form3.cs",
-              "RelativeDocumentMoniker": "Form3.cs",
-              "ToolTip": "C:\\Users\\ana.clima44\\source\\repos\\AgenciaDeViagens\\Form3.cs",
-              "RelativeToolTip": "Form3.cs",
-              "ViewState": "AgIAADgAAAAAAAAAAAAcwFMAAABWAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "FormADMIN.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ana.clima44\\source\\repos\\AgenciaDeViagens\\FormADMIN.cs",
+              "RelativeDocumentMoniker": "FormADMIN.cs",
+              "ToolTip": "C:\\Users\\ana.clima44\\source\\repos\\AgenciaDeViagens\\FormADMIN.cs [Design]",
+              "RelativeToolTip": "FormADMIN.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-14T11:46:53.01Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Form4.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\ana.clima44\\source\\repos\\AgenciaDeViagens\\Form4.cs",
-              "RelativeDocumentMoniker": "Form4.cs",
-              "ToolTip": "C:\\Users\\ana.clima44\\source\\repos\\AgenciaDeViagens\\Form4.cs [Design]",
-              "RelativeToolTip": "Form4.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-14T12:10:57.556Z",
+              "WhenOpened": "2026-10-21T13:56:50.953Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Form2.cs",
-              "DocumentMoniker": "C:\\Users\\ana.clima44\\source\\repos\\AgenciaDeViagens\\Form2.cs",
-              "RelativeDocumentMoniker": "Form2.cs",
-              "ToolTip": "C:\\Users\\ana.clima44\\source\\repos\\AgenciaDeViagens\\Form2.cs",
-              "RelativeToolTip": "Form2.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAowCYAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-14T12:42:53.29Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Form4.cs",
-              "DocumentMoniker": "C:\\Users\\ana.clima44\\source\\repos\\AgenciaDeViagens\\Form4.cs",
-              "RelativeDocumentMoniker": "Form4.cs",
-              "ToolTip": "C:\\Users\\ana.clima44\\source\\repos\\AgenciaDeViagens\\Form4.cs",
-              "RelativeToolTip": "Form4.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAAADcAAAAZAAAAAAAAAA==",
+              "Title": "Form11.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ana.clima44\\source\\repos\\AgenciaDeViagens\\Form11.cs",
+              "RelativeDocumentMoniker": "Form11.cs",
+              "ToolTip": "C:\\Users\\ana.clima44\\source\\repos\\AgenciaDeViagens\\Form11.cs [Design]*",
+              "RelativeToolTip": "Form11.cs [Design]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-14T12:14:05.461Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-21T11:39:19.493Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Form5.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\ana.clima44\\source\\repos\\AgenciaDeViagens\\Form5.cs",
-              "RelativeDocumentMoniker": "Form5.cs",
-              "ToolTip": "C:\\Users\\ana.clima44\\source\\repos\\AgenciaDeViagens\\Form5.cs [Design]",
-              "RelativeToolTip": "Form5.cs [Design]",
+              "DocumentIndex": 17,
+              "Title": "Form10.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ana.clima44\\source\\repos\\AgenciaDeViagens\\Form10.cs",
+              "RelativeDocumentMoniker": "Form10.cs",
+              "ToolTip": "C:\\Users\\ana.clima44\\source\\repos\\AgenciaDeViagens\\Form10.cs [Design]",
+              "RelativeToolTip": "Form10.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-14T12:02:42.092Z",
+              "WhenOpened": "2026-10-21T12:09:53.501Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Form8.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ana.clima44\\source\\repos\\AgenciaDeViagens\\Form8.cs",
+              "RelativeDocumentMoniker": "Form8.cs",
+              "ToolTip": "C:\\Users\\ana.clima44\\source\\repos\\AgenciaDeViagens\\Form8.cs [Design]",
+              "RelativeToolTip": "Form8.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-21T11:43:35.409Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "Form7.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ana.clima44\\source\\repos\\AgenciaDeViagens\\Form7.cs",
+              "RelativeDocumentMoniker": "Form7.cs",
+              "ToolTip": "C:\\Users\\ana.clima44\\source\\repos\\AgenciaDeViagens\\Form7.cs [Design]",
+              "RelativeToolTip": "Form7.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-21T11:47:53.34Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Form6.cs [Design]",
               "DocumentMoniker": "C:\\Users\\ana.clima44\\source\\repos\\AgenciaDeViagens\\Form6.cs",
               "RelativeDocumentMoniker": "Form6.cs",
@@ -192,7 +265,43 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 15,
+              "Title": "Form5.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ana.clima44\\source\\repos\\AgenciaDeViagens\\Form5.cs",
+              "RelativeDocumentMoniker": "Form5.cs",
+              "ToolTip": "C:\\Users\\ana.clima44\\source\\repos\\AgenciaDeViagens\\Form5.cs [Design]",
+              "RelativeToolTip": "Form5.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-14T12:02:42.092Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Form4.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ana.clima44\\source\\repos\\AgenciaDeViagens\\Form4.cs",
+              "RelativeDocumentMoniker": "Form4.cs",
+              "ToolTip": "C:\\Users\\ana.clima44\\source\\repos\\AgenciaDeViagens\\Form4.cs [Design]",
+              "RelativeToolTip": "Form4.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-14T12:10:57.556Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Form3.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ana.clima44\\source\\repos\\AgenciaDeViagens\\Form3.cs",
+              "RelativeDocumentMoniker": "Form3.cs",
+              "ToolTip": "C:\\Users\\ana.clima44\\source\\repos\\AgenciaDeViagens\\Form3.cs [Design]",
+              "RelativeToolTip": "Form3.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-21T12:08:38.653Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "Form2.cs [Design]",
               "DocumentMoniker": "C:\\Users\\ana.clima44\\source\\repos\\AgenciaDeViagens\\Form2.cs",
               "RelativeDocumentMoniker": "Form2.cs",
@@ -205,19 +314,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\ana.clima44\\source\\repos\\AgenciaDeViagens\\Form1.cs",
-              "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\ana.clima44\\source\\repos\\AgenciaDeViagens\\Form1.cs",
-              "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAmwBkAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-14T11:46:15.256Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\ana.clima44\\source\\repos\\AgenciaDeViagens\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
@@ -226,6 +322,71 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-14T11:44:08.806Z",
               "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Form13.cs",
+              "DocumentMoniker": "C:\\Users\\ana.clima44\\source\\repos\\AgenciaDeViagens\\Form13.cs",
+              "RelativeDocumentMoniker": "Form13.cs",
+              "ToolTip": "C:\\Users\\ana.clima44\\source\\repos\\AgenciaDeViagens\\Form13.cs",
+              "RelativeToolTip": "Form13.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-21T11:27:01.171Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Form10.cs",
+              "DocumentMoniker": "C:\\Users\\ana.clima44\\source\\repos\\AgenciaDeViagens\\Form10.cs",
+              "RelativeDocumentMoniker": "Form10.cs",
+              "ToolTip": "C:\\Users\\ana.clima44\\source\\repos\\AgenciaDeViagens\\Form10.cs",
+              "RelativeToolTip": "Form10.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-21T12:09:48.473Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Form3.cs",
+              "DocumentMoniker": "C:\\Users\\ana.clima44\\source\\repos\\AgenciaDeViagens\\Form3.cs",
+              "RelativeDocumentMoniker": "Form3.cs",
+              "ToolTip": "C:\\Users\\ana.clima44\\source\\repos\\AgenciaDeViagens\\Form3.cs",
+              "RelativeToolTip": "Form3.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAmwFMAAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-14T11:46:53.01Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Form2.cs",
+              "DocumentMoniker": "C:\\Users\\ana.clima44\\source\\repos\\AgenciaDeViagens\\Form2.cs",
+              "RelativeDocumentMoniker": "Form2.cs",
+              "ToolTip": "C:\\Users\\ana.clima44\\source\\repos\\AgenciaDeViagens\\Form2.cs",
+              "RelativeToolTip": "Form2.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAA5wCYAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-14T12:42:53.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\ana.clima44\\source\\repos\\AgenciaDeViagens\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\ana.clima44\\source\\repos\\AgenciaDeViagens\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAowBwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-14T11:46:15.256Z",
+              "EditorCaption": ""
             }
           ]
         }
